@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="admin123"/>
+  <parameter name="userName" value="Admin"/>
+  <parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"/>
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="pom.Orange_hrm.test.T004_DeletePIM">
+        <methods>
+          <include name="DeletePIM" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="closeWindow"/>
+        </methods>
+      </class> <!-- pom.Orange_hrm.test.T004_DeletePIM -->
+      <class name="pom.Orange_hrm.test.T003_loginAndLogout">
+        <methods>
+          <include name="setUp"/>
+          <include name="AddPIM" invocation-numbers="0"/>
+          <include name="closeWindow"/>
+        </methods>
+      </class> <!-- pom.Orange_hrm.test.T003_loginAndLogout -->
+      <class name="pom.Orange_hrm.test.T001Login">
+        <methods>
+          <include name="setUp"/>
+          <include name="closeWindow"/>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- pom.Orange_hrm.test.T001Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

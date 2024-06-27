@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-22T13:30:01 IST" name="Suite" finished-at="2024-06-22T13:30:57 IST" duration-ms="56211">
+    <groups>
+    </groups>
+    <test started-at="2024-06-22T13:30:01 IST" name="Test" finished-at="2024-06-22T13:30:57 IST" duration-ms="56211">
+      <class name="pom.Orange_hrm.test.T001Login">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:pom.Orange_hrm.test.T001Login@55a147cc]" started-at="2024-06-22T13:30:01 IST" name="setUp" finished-at="2024-06-22T13:30:08 IST" duration-ms="6652" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:pom.Orange_hrm.test.T001Login@55a147cc]" started-at="2024-06-22T13:30:08 IST" name="login" finished-at="2024-06-22T13:30:13 IST" duration-ms="5398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:pom.Orange_hrm.test.T001Login@55a147cc]" started-at="2024-06-22T13:30:13 IST" name="closeWindow" finished-at="2024-06-22T13:30:13 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- pom.Orange_hrm.test.T001Login -->
+      <class name="pom.Orange_hrm.test.T004_DeletePIM">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:pom.Orange_hrm.test.T004_DeletePIM@53045c6c]" started-at="2024-06-22T13:30:28 IST" name="setUp" finished-at="2024-06-22T13:30:35 IST" duration-ms="7923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DeletePIM(java.lang.String,java.lang.String)[pri:0, instance:pom.Orange_hrm.test.T004_DeletePIM@53045c6c]" started-at="2024-06-22T13:30:35 IST" name="DeletePIM" finished-at="2024-06-22T13:30:47 IST" duration-ms="11830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeletePIM -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:pom.Orange_hrm.test.T004_DeletePIM@53045c6c]" started-at="2024-06-22T13:30:47 IST" name="closeWindow" finished-at="2024-06-22T13:30:48 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- pom.Orange_hrm.test.T004_DeletePIM -->
+      <class name="pom.Orange_hrm.test.T003_loginAndLogout">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:pom.Orange_hrm.test.T003_loginAndLogout@5149d738]" started-at="2024-06-22T13:30:48 IST" name="setUp" finished-at="2024-06-22T13:30:52 IST" duration-ms="4339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AddPIM(java.lang.String,java.lang.String)[pri:0, instance:pom.Orange_hrm.test.T003_loginAndLogout@5149d738]" started-at="2024-06-22T13:30:52 IST" name="AddPIM" finished-at="2024-06-22T13:30:57 IST" duration-ms="5048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddPIM -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:pom.Orange_hrm.test.T003_loginAndLogout@5149d738]" started-at="2024-06-22T13:30:57 IST" name="closeWindow" finished-at="2024-06-22T13:30:57 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- pom.Orange_hrm.test.T003_loginAndLogout -->
+      <class name="pom.Orange_hrm.test.T002_AddPIM">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:pom.Orange_hrm.test.T002_AddPIM@795509d9]" started-at="2024-06-22T13:30:13 IST" name="setUp" finished-at="2024-06-22T13:30:18 IST" duration-ms="4732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AddPIM(java.lang.String,java.lang.String)[pri:0, instance:pom.Orange_hrm.test.T002_AddPIM@795509d9]" started-at="2024-06-22T13:30:18 IST" name="AddPIM" finished-at="2024-06-22T13:30:27 IST" duration-ms="9000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddPIM -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:pom.Orange_hrm.test.T002_AddPIM@795509d9]" started-at="2024-06-22T13:30:27 IST" name="closeWindow" finished-at="2024-06-22T13:30:28 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- pom.Orange_hrm.test.T002_AddPIM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
